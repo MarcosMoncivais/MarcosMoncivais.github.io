@@ -1117,7 +1117,7 @@ figure {
 img {
   vertical-align: middle;
 }
-.img-responsive,
+.img-circle,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
@@ -1125,10 +1125,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
 }
-.img-rounded {
+/*.img-rounded {
   border-radius: 6px;
-}
+}*/
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
@@ -1142,9 +1143,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-.img-circle {
+/*.img-circle {
   border-radius: 50%;
-}
+}*/
 hr {
   margin-top: 21px;
   margin-bottom: 21px;
